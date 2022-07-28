@@ -33,7 +33,7 @@ const InputUser = () => {
                     <form onSubmit={submit} className="inputForm">
                         <input className='titleInput' type="text" 
                                 value={userInput}
-                                onChange={e=>setUserInput(e.target.value.toLocaleLowerCase())}
+                                onChange={e=>setUserInput(e.target.value)}
                                 placeholder="Enter your name"/>
                         <div>
                             <button className='buttonTitle'><img src={pokeball} alt="" /></button>

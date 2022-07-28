@@ -119,7 +119,7 @@ const Pokedex = () => {
                 <input 
                        type="text"
                        value={inputCharacter}
-                       onChange={e=>setInputcharacter(e.target.value)}  />
+                       onChange={e=>setInputcharacter(e.target.value.toLocaleLowerCase())}  />
 
                 <button><img src={pokeball} alt="" /></button>
 
