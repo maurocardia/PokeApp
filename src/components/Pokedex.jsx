@@ -103,7 +103,7 @@ const Pokedex = () => {
 
             <select className={toggleCheck? "off":"listType"}
                     onChange={selecttype}>
-                <option value="">Seleccione un tipo de pokemon</option>
+                <option value="">Select a pokemon</option>
                 {
                     type.map(typ=>(
                     <option   key={typ.url}
